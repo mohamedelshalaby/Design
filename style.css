@@ -1,0 +1,301 @@
+
+
+body{
+    background-image: url(1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+    
+   
+
+}
+
+
+::selection{
+           background-color: rgba(238, 238, 238, 0.627);
+}
+
+.titl p{
+    color: rgb(217 164 66);
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+    font-weight: bold;
+
+
+}
+@media screen and (max-width:992px) {
+    .titl{
+        margin: 0;
+        padding: 0;
+    }
+    .sebu{
+         padding-top: 50px;
+         padding-left: 35%;
+         position: absolute;
+    }
+   
+}
+
+@media screen and (max-width:992px) and ( max-width:1535px){
+    body{
+        height: 220vh;
+    }
+    .inside{
+        position: absolute;
+        margin-left: 10%;
+        margin-top:80% ;
+}
+.wep{
+     margin-left: 1%;
+     position: absolute;
+}
+.sebu{
+    padding-top: 50px;
+    padding-left: 35%;
+    position: absolute;
+}
+}
+.titl ul{
+        margin-left: 18%;
+        margin-top: -62px;
+        
+}
+
+li{
+   display: inline-block;
+   padding-left: 40px;
+   
+
+}
+
+li a{
+        text-decoration: none;
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover{color:rgb(217 164 66);}
+
+/* input*/
+.sebu{
+           margin-right: 40px;
+           float: right;
+           margin-top: -50px;
+
+}
+
+     
+
+
+
+
+.sebu .searc{            
+                   width: 225px;
+                   height: 38px;
+                   border-left:2px solid  rgb(217 164 66) ;
+                   border-top:2px solid  rgb(217 164 66) ;
+                   border-bottom:2px solid  rgb(217 164 66) ;
+                   border-top-left-radius: 5px ;
+                   border-bottom-left-radius: 5px ;
+
+
+}
+
+.sebu .butt{
+             width: 100px;
+             height: 38px;
+             margin-left: -11px;
+             border-top:2px solid  rgb(217 164 66) ;
+             border-right:2px solid  rgb(217 164 66);
+             border-bottom:2px solid  rgb(217 164 66);
+             border-top-right-radius: 5px ;
+             border-bottom-right-radius: 5px ;
+             background-color:rgb(217 164 66);
+             cursor: pointer;
+             font-weight: bold;
+
+}
+
+
+.wep{
+    margin-top: 150px;
+    width: 635px;
+   height: 400px;
+   float: left;
+    
+
+}
+
+.wep h1{
+   color: white;
+   font-size: 280%;
+   text-transform: capitalize;
+   margin-left: 40px;
+}
+
+span{
+    color:rgb(217 164 66) ;
+    font-size: 120%;
+    cursor:pointer;
+}
+
+span:hover{
+          -webkit-text-stroke: 0.5px rgb(217 164 66);
+          color: transparent;
+}
+
+.wep p{
+      margin-left: 40px;
+      color: white;
+      font-size: large;
+      text-transform: capitalize;
+}
+
+.wep input{
+          width: 120px;
+          height: 40px;
+          margin-left: 40px;
+          background-color:rgb(217 164 66) ;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          font-weight: bold;
+          box-shadow: 1px 1px 3px orange;
+
+}
+
+.wep input:hover{
+                 background-color: transparent;
+                 border: 3px solid grey ;
+                 color: white;
+}
+
+
+/**/
+
+
+.inside{
+   width: 300px;
+   height: 450px;
+   border: 3px solid rgba(128, 128, 128, 0.4);
+   background-color: rgba(128, 128, 128, 0.032);
+   border-radius: 9px;
+   opacity: 100%;
+   margin-left: 75%;
+   margin-top: 140px;
+   padding-right: 10px;
+
+
+
+}
+@media screen and (max-width:992px){
+    .inside{
+        margin-left: 30%;
+        margin-top:70% ;
+    }
+    .wep{
+        margin-left: 25%;
+    }
+}
+.formm{
+      width: 400px;
+      height: 600px;
+}
+
+button{ 
+    
+       margin-left: 90px;
+       margin-top: 15px;
+       margin-bottom: 10px;
+
+       text-align: center;
+       font-size: x-large;
+      color:rgb(217 164 66);
+      background-color:transparent;
+      border: none;
+      font-weight: bold;
+
+}
+         
+
+
+.formm input {
+               width: 250px;
+               height: 50px;
+               background-color: transparent;
+               opacity: 70%;
+               border: none;
+               color: white;
+               margin-left: 15px;
+               padding-left: 10px;
+               border-bottom: 2px solid rgb(217 164 66);
+               padding-left: 20px;
+
+     
+}
+
+
+
+#login2{ width:250px;
+   height: 40px;
+   margin-left: 30px;
+   margin-top: 25px;
+   text-align: center;
+   font-size: x-large;
+   background-color: rgb(217 164 66);
+   color: black;
+   border-radius: 10px;
+   cursor: pointer;
+   font-weight: bold;
+
+   }    
+   
+   #login2:hover{
+               background-color: transparent;
+               color: white;
+   }
+
+
+
+
+.inside p{
+         color: white;
+         margin-left: 75px;
+         font-size: large;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(217 164 66);
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+
+#fina{
+        margin-left: 120px;
+        }
+
+        .inside a img{
+                     opacity: 70%;
+                     border: none;
+                     margin-left: 17px;
+                     padding: 5px;
+                     transition: all 1s;
+                     width: 40px;
+                     height: 40px;
+        }
+
+                           
+        
+
+        .inside a img:hover {
+                             transform: scale(1.4);
+                            }
+
+
+

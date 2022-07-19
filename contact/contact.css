@@ -1,0 +1,174 @@
+
+
+body{
+    background-image: url('12.png');
+    height:98vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+#titl p{
+    color: orange;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+    font-weight: bold;
+
+
+}
+
+#titl ul{
+        margin-left: 18%;
+        margin-top: -62px;
+        
+}
+
+li{
+   display: inline-block;
+   padding-left: 40px;
+   
+
+}
+
+li a{
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover{color:rgb(217 164 66);}
+
+/* input*/
+#sebu{
+           margin-right: 40px;
+           float: right;
+           margin-top: -50px;
+
+}
+
+     
+
+
+
+
+#sebu .searc{            
+                   width: 225px;
+                   height: 38px;
+                   border-left:2px solid  rgb(217 164 66);
+                   border-top:2px solid  rgb(217 164 66);
+                   border-bottom:2px solid  rgb(217 164 66);
+                   border-top-left-radius: 5px ;
+                   border-bottom-left-radius: 5px ;
+
+
+}
+
+#sebu .butt{
+             width: 100px;
+             height: 38px;
+             margin-left: -11px;
+             border-top:2px solid  rgb(217 164 66);
+             border-right:2px solid  rgb(217 164 66) ;
+             border-bottom:2px solid  rgb(217 164 66) ;
+             border-top-right-radius: 5px ;
+             border-bottom-right-radius: 5px ;
+             background-color:rgb(217 164 66);;
+             cursor: pointer;
+}
+
+
+
+.icone{
+    
+    margin-top: 170px;
+    margin-left: 200px;
+    display: flex;
+}
+/*
+
+.icone a img{
+         padding: 10px;
+         transition:  1s;         
+         animation-name: nave;
+         animation-duration: 6s;
+         animation-iteration-count: 7;
+         animation-delay: 1s;
+         animation-timing-function:ease-in-out;
+         transition-timing-function: cubic-bezier(10,10,10,10 );
+}
+
+@keyframes nave{
+                0%{ background-color:rgb(217 164 66);; border-radius: 40px;opacity: 80%;}
+                20%{ background-color:rgb(217 164 66);;opacity: 80%; margin-left: 20px;margin-top: 120px; ;}
+                50%{background-color:rgb(217 164 66);; }
+                100%{background-color:black ;border-radius: 10px;opacity: 50%;}
+                }*/
+
+img{
+    transition: all .5s;
+    width: 80px;
+    height: 80px;
+
+}
+
+
+a img:hover{
+            transform: scale(1.5);
+           }
+
+.icone div{
+         display:inline-block;
+         margin: 0 2%;
+         animation-name: nave;
+         animation-duration: 2.5s;
+         animation-direction: alternate;
+         animation-iteration-count: infinite;
+         animation-delay: 0.1s;
+         animation-timing-function:linear;
+          
+}
+
+.icone div:hover{
+        animation-play-state: paused;
+}
+.icone .icone2{
+       animation-delay: 0.5s;
+}
+.icone .icone3{
+    animation-delay: 1s;
+}
+.icone .icone4{
+    animation-delay: 1.5s;
+}
+.icone .icone5{
+    animation-delay: 2s;
+}
+.icone .icone6{
+    animation-delay: 2.5s;
+}
+
+@keyframes nave{
+              100%{transform:translateY(240px);opacity: 80%;}
+}
+
+@media screen and  (max-width:992px) {
+   
+    #sebu{
+        margin-left: 30%;
+        margin-top: 0;
+
+        
+    }
+    #titl ul{
+        margin-left: 12%;
+        
+    }
+   
+} 
+
+            

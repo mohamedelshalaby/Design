@@ -1,0 +1,139 @@
+body{
+     background-image: url('12.jpg');
+     background-size:cover;
+     background-repeat: no-repeat;
+     width: 100%;
+}
+
+#titl p{
+    color: rgb(217 164 66);
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -20px;
+    margin-top: -60px;
+}
+
+#titl ul{
+        margin-left: 10%;
+        margin-top: -62px;
+        
+}
+
+li{
+   display: inline-block;
+   padding-left: 40px;
+   
+
+}
+
+li a{
+        text-decoration: none;
+        color: white;
+        font-size: x-large;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+li a:hover{color:rgb(217 164 66);}
+
+#sebu{
+    margin-right: 40px;
+    margin-top: -45px;
+    margin-left: 65%;
+    
+
+
+}
+
+@media screen and  (max-width:992px) {
+   
+    #sebu{
+        margin-left: 30%;
+        margin-top: 0;
+
+        
+    }
+    #titl ul{
+        margin-left: 12%;
+        
+    }
+   
+}
+
+
+
+
+
+
+#sebu .searc{            
+            width: 225px;
+            height: 38px;
+            border-left:2px solid  rgb(217 164 66) ;
+            border-top:2px solid  rgb(217 164 66) ;
+            border-bottom:2px solid  rgb(217 164 66) ;
+            border-top-left-radius: 5px ;
+            border-bottom-left-radius: 5px ;
+
+
+}
+
+#sebu .butt{
+      width: 100px;
+      height: 38px;
+      margin-left: -11px;
+      border-top:2px solid  rgb(217 164 66) ;
+      border-right:2px solid  rgb(217 164 66) ;
+      border-bottom:2px solid  rgb(217 164 66);
+      border-top-right-radius: 5px ;
+      border-bottom-right-radius: 5px ;
+      background-color:rgb(217 164 66);
+      cursor: pointer;
+}
+
+
+/**/
+
+div{
+    margin-top: 100px;
+    margin-left: 60px;
+    color:white;
+    text-transform: capitalize;
+}
+
+
+span {
+      color: rgb(217 164 66);
+      text-transform:capitalize;
+      font-size: 150%;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin-left: 50px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+
+button{
+    margin-left: 50px;
+    background-color: rgb(217 164 66);
+    border: none;
+    border-radius: 7px;
+    transition: all 0.5s;
+      
+}
+
+button:hover{
+             background-color: transparent;
+             border: 3px solid grey;
+             color: rgb(217 164 66);
+}
+
+button a:hover{
+               color: rgb(217 164 66);
+}

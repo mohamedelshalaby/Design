@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:linear-gradient(black,black);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+body::after{
+           content: '';
+           width: 100%;
+           height: 100%;
+           background-color: rgba(238, 238, 238, 0.5);
+           position: absolute;
+           clip-path: circle(40% at bottom );
+           z-index: -1;
+}
+
+.cont{width: 80%;
+      height: 80%;
+      background-color:#ededed20;
+      border-radius: 10px;
+      padding-top: 30px;
+
+
+}
+
+.logo img{width: 100px;
+           height: 100px;
+           color: white;
+           font-size: xx-large;
+      
+
+}
+
+
+
+.logo{
+    display: inline-block;
+    margin-left: 5% ;
+    position: absolute;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+      
+      
+     
+      
+
+
+nav ul li{
+       display: inline-block;
+       padding: 20px;
+       font-size: x-large;
+       transition:all .8s;
+}
+
+ul li:hover {
+    transform: scale(1.2);
+
+}
+
+
+
+nav ul {
+       margin-left: 50%;
+       position: absolute;
+       display: flex;
+       flex-wrap: wrap;
+}
+
+
+ul li a:hover{
+               color: rgba(47, 252, 255, 0.292);
+}
+
+.pra{
+    margin-top: 5%;
+     width: 50%;
+     height: 400px;
+     float: left;
+}
+
+.pra  .prae{
+      color: white;
+      font-size: 270%;
+      margin-left: 100px;
+      margin-top: 100px;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.pra p{
+       color: white;
+       margin-left: 100px;
+}
+
+.photo{
+       width: 50%;
+       float: right;
+       margin-top: 10%;
+
+       
+}
+
+.photo img {
+            width: 500px;
+            height: 300px;
+            transition: all 1s;
+            display: inline-block;
+}
+
+.photo img:hover{
+                 transform: scale(1.3);
+}
+
+@media screen and  (max-width:992px){
+   
+    .logo{
+        position: absolute;
+        display: inline;
+        margin-left: 36%;
+    }
+  nav ul{
+        position: absolute;
+        margin-left: 23%;
+        margin-top: 10%;
+    }
+    .pra{
+        margin-top: 20%;
+         width: 50%;
+         height: 400px;
+         
+    }
+    .photo{
+        margin-top: 20%;
+        
+    }
+
+    body::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(238, 238, 238, 0.5);
+        position: absolute;
+        clip-path: circle(40% at right );
+        z-index: -1;
+}
+
+}
